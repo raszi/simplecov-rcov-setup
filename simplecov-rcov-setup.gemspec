@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['github@spam.raszi.hu']
   spec.summary       = 'SimpleCov Rcov Formatter setup'
   spec.description   = 'Helps to setup SimpleCov Rcov formatter'
-  spec.homepage      = ''
+  spec.homepage      = 'https://github.com/raszi/simplecov-rcov-setup'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files -z`.split("\x0")
