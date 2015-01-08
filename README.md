@@ -37,7 +37,7 @@ environment variable then use the `#conditionally` method instead:
 
 ```ruby
 require 'simplecov-rcov-setup'
-SimpleCov::Formatter::RcovFormatter::Setup.unconditionally
+SimpleCov::Formatter::RcovFormatter::Setup.conditionally
 ```
 
 You can also configure it before starting:
