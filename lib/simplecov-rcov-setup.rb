@@ -11,15 +11,16 @@ class SimpleCov::Formatter::RcovFormatter
     class << self
       attr_writer :formatters, :filtered, :profile
 
-      def unconditionally
+      def unconditionally(&block)
         SimpleCov.formatters = @formatters
         SimpleCov.start(@profile) do
           @filtered.each { |filter| add_filter("/#{filter}") }
+          block.call if block
         end
       end
 
-      def conditionally
-        unconditionally if ENV['COVERAGE'] == 'on'
+      def conditionally(&block)
+        unconditionally(&block) if ENV['COVERAGE'] == 'on'
       end
     end
   end
