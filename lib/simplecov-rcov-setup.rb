@@ -14,7 +14,7 @@ class SimpleCov::Formatter::RcovFormatter
       def unconditionally
         SimpleCov.formatters = @formatters
         SimpleCov.start(@profile) do
-          @filtered.each { |filter| add_filter("/$#{filter}") }
+          @filtered.each { |filter| add_filter("/#{filter}") }
         end
       end
 
