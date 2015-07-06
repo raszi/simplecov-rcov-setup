@@ -47,6 +47,15 @@ SimpleCov::Formatter::RcovFormatter::Setup.profile = 'rails'
 SimpleCov::Formatter::RcovFormatter::Setup.formatters = SimpleCov::Formatter::RcovFormatter
 ```
 
+even more complex setup is possible:
+
+```ruby
+SimpleCov::Formatter::RcovFormatter::Setup.profile = 'rails'
+SimpleCov::Formatter::RcovFormatter::Setup.unconditionally do
+  add_group 'Decorators', 'app/decorators'
+end
+```
+
 ## Contributing
 
 1. Fork it ( https://github.com/raszi/simplecov-rcov-setup/fork )
