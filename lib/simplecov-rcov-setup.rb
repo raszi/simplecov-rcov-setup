@@ -15,7 +15,7 @@ class SimpleCov::Formatter::RcovFormatter
         SimpleCov.formatters = @formatters
         SimpleCov.start(@profile) do
           @filtered.each { |filter| add_filter("/#{filter}") }
-          instance_eval(block) if block
+          instance_eval(&block) if block
         end
       end
 
