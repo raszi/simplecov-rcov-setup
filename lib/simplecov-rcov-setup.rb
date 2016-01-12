@@ -9,7 +9,8 @@ class SimpleCov::Formatter::RcovFormatter
     @filtered = %w(.bundle bundle vendor/bundler spec)
 
     class << self
-      attr_writer :formatters, :filtered, :profile
+      attr_accessor :filtered
+      attr_writer :formatters, :profile
 
       def unconditionally(&block)
         SimpleCov.formatters = @formatters
