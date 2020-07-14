@@ -1,5 +1,6 @@
-# coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
+# frozen_string_literal: true
+
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'simplecov-rcov-setup/version'
 
