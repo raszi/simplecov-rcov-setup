@@ -15,6 +15,9 @@ Lint/RaiseException:
   Enabled: true
 Lint/StructNewOverride:
   Enabled: true
+Naming/FileName:
+  Exclude:
+    - 'lib/simplecov-rcov-setup.rb'
 Style/AccessorGrouping:
   Enabled: true
 Style/ArrayCoercion:
@@ -23,6 +26,8 @@ Style/BisectedAttrAccessor:
   Enabled: true
 Style/CaseLikeIf:
   Enabled: true
+Style/Documentation:
+  Enabled: false
 Style/ExponentialNotation:
   Enabled: true
 Style/HashAsLastArrayItem:
