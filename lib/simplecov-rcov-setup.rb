@@ -8,7 +8,7 @@ class SimpleCov::Formatter::RcovFormatter
   class Setup
     @formatters = [SimpleCov::Formatter::HTMLFormatter, SimpleCov::Formatter::RcovFormatter]
     @profile = nil
-    @filtered = %w(.bundle bundle vendor/bundler spec)
+    @filtered = %w[.bundle bundle vendor/bundler spec]
 
     class << self
       attr_writer :formatters, :filtered, :profile
