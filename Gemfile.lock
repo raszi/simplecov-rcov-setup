@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    simplecov-rcov-setup (0.0.6)
+    simplecov-rcov-setup (0.0.7)
       simplecov-rcov (~> 0.2.3)
 
 GEM
