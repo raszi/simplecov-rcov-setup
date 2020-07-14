@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'simplecov-rcov', '~> 0.2.3'
 
-  spec.add_development_dependency 'bundler', '~> 1.7'
+  spec.add_development_dependency 'bundler', '~> 2.1'
   spec.add_development_dependency 'gem-release', '~> 2.1'
   spec.add_development_dependency 'rubocop', '~> 0.88.0'
 end
