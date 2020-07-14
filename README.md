@@ -1,5 +1,7 @@
 # Simplecov::Formatter::RcovFormatter::Setup
 
+[![Build Status](https://travis-ci.org/raszi/simplecov-rcov-setup.svg?branch=master)](https://travis-ci.org/raszi/simplecov-rcov-setup)
+
 Helps you to set up the RcovFormatter easily
 
 ## Installation
