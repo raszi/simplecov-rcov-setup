@@ -14,7 +14,7 @@ GEM
     parser (2.7.1.5)
       ast (~> 2.4.1)
     rainbow (3.0.0)
-    regexp_parser (1.8.0)
+    regexp_parser (1.8.1)
     rexml (3.2.4)
     rubocop (0.92.0)
       parallel (~> 1.10)
@@ -25,17 +25,15 @@ GEM
       rubocop-ast (>= 0.5.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 2.0)
-    rubocop-ast (0.7.0)
+    rubocop-ast (0.7.1)
       parser (>= 2.7.1.5)
-      strscan (>= 1.0.0)
     ruby-progressbar (1.10.1)
-    simplecov (0.18.5)
+    simplecov (0.19.0)
       docile (~> 1.1)
       simplecov-html (~> 0.11)
-    simplecov-html (0.12.2)
+    simplecov-html (0.12.3)
     simplecov-rcov (0.2.3)
       simplecov (>= 0.4.1)
-    strscan (1.0.3)
     unicode-display_width (1.7.0)
 
 PLATFORMS
@@ -48,4 +46,4 @@ DEPENDENCIES
   simplecov-rcov-setup!
 
 BUNDLED WITH
-   1.17.2
+   2.1.4
